@@ -1,0 +1,23 @@
+{
+  "name": "simple-graphql-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "nodemon --ignore bundle.js --exec 'yarn webpack && node bundle.js'"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.3.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "graphql-tools": "^2.23.1",
+    "nodemon": "^1.17.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
